@@ -14,12 +14,16 @@
 
 }
 
-.card {}
+.card {
+    flex-direction: column;
+    width: 31.66%;
+    min-width: 200px;
+}
 
-.width-30 {
+/*.width-30 {
     width: 30%;
 
-}
+}*/
 
 .mark {
     text-transform: capitalize;
@@ -27,7 +31,7 @@
 }
 
 .object {
-    text-transform: capitalize;
+    text-transform: uppercase;
 
 }
 
@@ -43,4 +47,28 @@
 
 .wrap {
     flex-wrap: wrap;
+}
+
+#big-box {
+    justify-content: space-between;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: black;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-margin {
+    margin-top: 20px;
+}
+
+.item-margin {
+    margin-top: 5px;
 }
