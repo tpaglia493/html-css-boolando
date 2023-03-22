@@ -5,6 +5,10 @@
     font-family: 'Rubik', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .margin-auto-80 {
     width: 80%;
     margin: auto;
@@ -76,4 +80,55 @@
 
 .item-margin {
     margin-top: 5px;
+}
+
+.smaller-text {
+    font-size: smaller;
+}
+
+.white-text {
+    color: white;
+}
+
+#header {
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 10%;
+}
+
+#footer {
+    height: 60px;
+    background-color: #1a1a1a;
+    justify-content: space-around;
+    font-size: small;
+    align-items: center;
+    color: white;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.header-height {
+    height: 50px;
+}
+
+.header-bg {
+    background-color: #ff6900;
+}
+
+.no-border {
+    border: none;
+}
+
+.hover:hover {
+    background-color: #ff8731;
+}
+
+.button:active {
+    background-color: #ff8731;
 }

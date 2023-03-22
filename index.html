@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b17048d197.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Boolando</title>
 </head>
@@ -16,10 +19,50 @@
     <main>
 
         <header>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="header-height header-bg">
+                <div id="header" class="flex margin-auto-80">
+                    <div class="flex">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle header-bg no-border hover" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Uomo
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">Action</button></li>
+                                <li><button class="dropdown-item" type="button">Another action</button></li>
+                                <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle header-bg no-border hover" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Donna
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">Action</button></li>
+                                <li><button class="dropdown-item" type="button">Another action</button></li>
+                                <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle header-bg no-border hover" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Bambini
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">Action</button></li>
+                                <li><button class="dropdown-item" type="button">Another action</button></li>
+                                <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="logo"><img src="./img/boolean-logo.png" class="contain" alt="boolean logo"></div>
+                    <div class="white-text flex gap-15">
+                        <i class="fa-regular fa-user"></i>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                </div>
             </div>
         </header>
 
@@ -34,7 +77,7 @@
                 <!--BIGGEST FLEX-CONTAINER WITH 6 CARDS-->
                 <div id="big-box" class="flex wrap">
                     <!--FLEX-CARD 1-->
-                    <div class="card flex width-30">
+                    <div class="card flex">
                         <!--IMG CONTAINER-->
                         <div>
                             <img class="contain" src="./img/1.webp" alt="model with a dress">
@@ -49,7 +92,7 @@
                     </div>
 
                     <!--FLEX-CARD 2-->
-                    <div class="card flex width-30">
+                    <div class="card flex">
                         <!--IMG CONTAINER-->
                         <div>
                             <img class="contain" src="./img/2.webp" alt="model with a dress">
@@ -64,7 +107,7 @@
                     </div>
 
                     <!--FLEX-CARD 3-->
-                    <div class="card flex width-30">
+                    <div class="card flex">
                         <!--IMG CONTAINER-->
                         <div>
                             <img class="contain" src="./img/3.webp" alt="model with a dress">
@@ -79,7 +122,7 @@
                     </div>
 
                     <!--FLEX-CARD 4-->
-                    <div class="card flex width-30">
+                    <div class="card flex">
                         <!--IMG CONTAINER-->
                         <div>
                             <img class="contain" src="./img/4.webp" alt="model with a dress">
@@ -94,7 +137,7 @@
                     </div>
 
                     <!--FLEX-CARD 5-->
-                    <div class="card flex width-30">
+                    <div class="card flex">
                         <!--IMG CONTAINER-->
                         <div>
                             <img class="contain" src="./img/5.webp" alt="model with a dress">
@@ -109,7 +152,7 @@
                     </div>
 
                     <!--FLEX-CARD 6-->
-                    <div class="card flex width-30">
+                    <div class="card flex">
                         <!--IMG CONTAINER-->
                         <div>
                             <img class="contain" src="./img/6.webp" alt="model with a dress">
@@ -127,13 +170,26 @@
         </div>
 
         <footer>
-            <div>
-                <div></div>
+            <div id="footer" class="flex section-margin">
+                <div>
+                    <p>Boolando s.r.l.</p>
+                    <div>
+                        <p class="smaller-text item-margin flex gap-15">
+                            <a class="white-text" href="">Informazioni legali</a>
+                            <a class="white-text" href="">Informativa sulla privacy</a>
+                            <a class="white-text" href="">Diritto di recesso</a>
+                        </p>
+                    </div>
+
+                </div>
                 <div></div>
             </div>
         </footer>
 
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
