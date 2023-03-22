@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 .margin-auto-80 {
@@ -18,6 +19,8 @@
     flex-direction: column;
     width: 31.66%;
     min-width: 200px;
+    border: 1px solid #eaeaea;
+    margin-top: 20px;
 }
 
 /*.width-30 {
@@ -32,11 +35,12 @@
 
 .object {
     text-transform: uppercase;
-
+    font-weight: 600;
 }
 
 .price {
     color: red;
+    font-weight: 500;
 
 }
 
@@ -56,6 +60,7 @@
 .old-price {
     text-decoration: line-through;
     color: black;
+    font-weight: 400;
 }
 
 .center {
